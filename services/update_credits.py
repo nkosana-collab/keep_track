@@ -31,3 +31,5 @@ def update_credit(date):
             ], ignore_index=True)
 
     credits.to_csv("./tables/credits.csv", index=False)
+
+update_credit("2026-07-07")
