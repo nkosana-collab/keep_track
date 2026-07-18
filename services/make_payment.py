@@ -44,5 +44,3 @@ def decreament_credit(customer,amount):
             ] -= amount
         
     credits.to_csv("./tables/credits.csv", index=False)
-
-make_payment("2026-07-07", "technical",300)
