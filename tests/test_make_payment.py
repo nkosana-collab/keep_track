@@ -2,10 +2,6 @@
 Tests for make_payment.py
 
 Run with:  pytest test_make_payment.py -v
-
-These tests isolate each run inside a temporary directory (via the
-`work_dir` fixture) so the real ./tables/*.csv files are never touched,
-and so tests can't leak state into each other.
 """
 
 import pandas as pd
